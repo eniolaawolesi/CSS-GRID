@@ -10,6 +10,9 @@
 
 * {
     box-sizing: border-box;
+    border: 0;
+
+	padding: 0;
 }
 
 body {
@@ -38,7 +41,7 @@ body {
 
 .trial {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     margin: 0 auto;
